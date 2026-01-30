@@ -1,9 +1,8 @@
-#include <windows.h>
 #include <stdio.h>
+#include <string.h>
 
 int main()
 {
-    SetConsoleOutputCP(CP_UTF8);
     for (int i = 1; i <= 100; i++)
     {
         char str[9] = "";
